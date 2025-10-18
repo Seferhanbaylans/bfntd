@@ -2227,7 +2227,7 @@
         "Crafter Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://80432610667808",
-        "Rarity": "Nightmare",
+        "Rarity": "Crafter",
         "PlacePrice": 4000,
         "Offset": 0.45,
         "Max": 2,
@@ -2888,6 +2888,7 @@
         ]
     }
 }
+
 
 
 
