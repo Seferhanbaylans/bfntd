@@ -1710,6 +1710,44 @@
             }
         ]
     },
+        "Righty": {
+        "Type": "Continuous",
+        "Image": "rbxassetid://94430954557733",
+        "Rarity": "Secret",
+        "PlacePrice": 15000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 17,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 20000,
+                "Range": 22,
+                "Damage": 25,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 30000,
+                "Range": 25,
+                "Damage": 30,
+                "Cooldown": 0.05
+            },
+            {
+                "Price": 40000,
+                "Range": 30,
+                "Damage": 35,
+                "Cooldown": 0.05
+            }
+        ]
+    },
         "Diamond Bounded Shadow": {
         "Type": "Continuous",
         "Image": "rbxassetid://122037389276972",
@@ -1751,6 +1789,44 @@
     "Phantom Balloon Boy": {
         "Type": "Nuke",
         "Image": "rbxassetid://18356472602",
+        "Rarity": "Secret",
+        "PlacePrice": 7500,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 600,
+                "Cooldown": 4
+            },
+            {
+                "Price": 10000,
+                "Range": 18,
+                "Damage": 700,
+                "Cooldown": 3.5
+            },
+            {
+                "Price": 15000,
+                "Range": 22,
+                "Damage": 800,
+                "Cooldown": 3
+            },
+            {
+                "Price": 20000,
+                "Range": 25,
+                "Damage": 1000,
+                "Cooldown": 3
+            }
+        ]
+    },
+       "Frighty": {
+        "Type": "Nuke",
+        "Image": "rbxassetid://111418053713720",
         "Rarity": "Secret",
         "PlacePrice": 7500,
         "Max": 3,
@@ -2147,6 +2223,44 @@
             }
         ]
     },
+        "Bounded Nightmare": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://125877889144629",
+        "Rarity": "Nightmare",
+        "PlacePrice": 12500,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 16,
+                "Damage": 550,
+                "Cooldown": 2
+            },
+            {
+                "Price": 15000,
+                "Range": 18,
+                "Damage": 600,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 17000,
+                "Range": 20,
+                "Damage": 1100,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 22000,
+                "Range": 22,
+                "Damage": 1250,
+                "Cooldown": 1
+            }
+        ]
+    },
     "Bounded Shadow": {
         "Type": "Pierce",
         "Image": "rbxassetid://18363555442",
@@ -2388,6 +2502,118 @@
             }
         ]
     },
+        "Blood Moon": {
+        "Type": "Poison",
+        "Image": "rbxassetid://122141966765485",
+        "Rarity": "Secret",
+        "PlacePrice": 500,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": -0.4,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 100,
+                "Cooldown": 4,
+                "Poison": 10,
+                "PoisonLength": 3
+            },
+            {
+                "Price": 800,
+                "Range": 17,
+                "Damage": 125,
+                "Cooldown": 3,
+                "Poison": 15,
+                "PoisonLength": 3
+            },
+            {
+                "Price": 1000,
+                "Range": 20,
+                "Damage": 150,
+                "Cooldown": 3,
+                "Poison": 20,
+                "PoisonLength": 3
+            },
+            {
+                "Price": 1200,
+                "Range": 25,
+                "Damage": 200,
+                "Cooldown": 2,
+                "Poison": 25,
+                "PoisonLength": 3
+            }
+        ]
+    },
+        "Error Demon Bonnie": {
+        "Type": "Continuous Slow",
+        "Image": "rbxassetid://88439586654869",
+        "Rarity": "Secret",
+        "PlacePrice": 15000,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Offset": 0.1,
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 16,
+                "Damage": 40,
+                "Cooldown": 0.07,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.9,
+                "SlowTime": 1
+            },
+            {
+                "Price": 30000,
+                "Range": 20,
+                "Damage": 45,
+                "Cooldown": 0.07,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.7,
+                "SlowTime": 1
+            },
+            {
+                "Price": 40000,
+                "Range": 25,
+                "Damage": 50,
+                "Cooldown": 0.07,
+                "ChargeLength": 2.5,
+                "RechargeLength": 5,
+                "Slow": 0.7,
+                "SlowTime": 1
+            },
+            {
+                "Price": 50000,
+                "Range": 30,
+                "Damage": 55,
+                "Cooldown": 0.07,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+                "Slow": 0.7,
+                "SlowTime": 1
+            },
+            {
+                "Price": 75000,
+                "Range": 35,
+                "Damage": 60,
+                "Cooldown": 0.07,
+                "ChargeLength": 2,
+                "RechargeLength": 5,
+                "Slow": 0.7,
+                "SlowTime": 1
+            }
+        ]
+    },
     "Abyssal Foxy": {
         "Type": "Continuous Slow",
         "Image": "rbxassetid://18578478327",
@@ -2495,6 +2721,52 @@
                 "Damage": 40,
                 "Cooldown": 0.3,
                 "Ammo": 30,
+                "ReloadTime": 1.5
+            }
+        ]
+    },
+        "Fan Guy": {
+        "Type": "Continuous",
+        "Image": "rbxassetid://130891654331950",
+        "Rarity": "Apex",
+        "PlacePrice": 10000,
+        "Max": 2,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 18,
+                "Damage": 35,
+                "Cooldown": 0.25,
+                "Ammo": 50,
+                "ReloadTime": 1.5
+            },
+            {
+                "Price": 15000,
+                "Range": 20,
+                "Damage":45,
+                "Cooldown": 0.125,
+                "Ammo": 50,
+                "ReloadTime": 1.5
+            },
+            {
+                "Price": 20000,
+                "Range": 23,
+                "Damage": 55,
+                "Cooldown": 0.1,
+                "Ammo": 60,
+                "ReloadTime": 1.5
+            },
+            {
+                "Price": 25000,
+                "Range": 26,
+                "Damage": 70,
+                "Cooldown": 0.05,
+                "Ammo": 60,
                 "ReloadTime": 1.5
             }
         ]
@@ -2928,6 +3200,7 @@
         ]
     }
 }
+
 
 
 
