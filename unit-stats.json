@@ -971,7 +971,7 @@
         "Type": "AOE",
         "Image": "rbxassetid://72128016040243",
         "Rarity": "Hell",
-        "PlacePrice": 0,
+        "PlacePrice": 20000,
         "Max": 2,
         "hitboxOffset": {
             "X": 0,
@@ -2849,6 +2849,7 @@
         ]
     }
 }
+
 
 
 
