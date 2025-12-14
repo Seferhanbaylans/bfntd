@@ -7428,6 +7428,46 @@
         ]
     },
 
+	    "Sahur Freddy": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://75459562854513",
+        "Rarity": "Mythic",
+        "PlacePrice": 8000,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+      "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 800,
+                "Cooldown": 2
+            },
+            {
+                "Price": 10000,
+                "Range": 22,
+                "Damage": 1000,
+                "Cooldown": 1.8
+            },
+            {
+                "Price": 12000,
+                "Range": 24,
+                "Damage": 1250,
+                "Cooldown": 1.65
+            },
+            {
+                "Price": 14000,
+                "Range": 24,
+                "Damage": 1500,
+                "Cooldown": 1.5
+            }
+        ]
+    },
+
     "Rockstar Foxy": {
         "Type": "AOE + Booster",
         "Image": "rbxassetid://94327478010876",
@@ -7475,7 +7515,53 @@
             }
         ]
     },
+    "Bacon Freddy": {
+        "Type": "AOE + Booster",
+        "Image": "rbxassetid://139805116613066",
+        "Rarity": "Secret",
+        "PlacePrice": 15000,
+        "NoEnemyAttack": true,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Sea Shanty", "Description": "All units in range get +35% range (x1.25 if shiny)"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 100,
+                "Cooldown": 0.1,
+                "RangeBoost": 1.35
+            },
+            {
+                "Price": 20000,
+                "Range": 22,
+                "Damage": 150,
+                "Cooldown": 0.1,
+                "RangeBoost": 1.35
 
+            },
+            {
+                "Price": 25000,
+                "Range": 24,
+                "Damage": 200,
+                "Cooldown": 0.1,
+                "RangeBoost": 1.35
+
+            },
+            {
+                "Price": 30000,
+                "Range": 25,
+                "Damage": 250,
+                "Cooldown": 0.1,
+                "RangeBoost": 1.35
+            }
+        ]
+	}
     "Helpy": {
         "Type": "Damage + Range Booster",
         "Image": "rbxassetid://135679216615409",
@@ -7528,6 +7614,55 @@
         "Type": "Explosion Burn",
         "Image": "rbxassetid://72496434217414",
         "Rarity": "Secret",
+        "PlacePrice": 17500,
+        "Offset": -0.75,
+        "Max": 3,
+        "MaxChain": 5,
+        "Passive": {"Name": "Burn", "Description": "Applies 100% Burn damage over 3 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 13000,
+                "Cooldown": 3,
+                "Burn": 13000,
+                "BurnTime": 3
+            },
+            {
+                "Price": 20000,
+                "Range": 28,
+                "Damage": 15000,
+                "Cooldown": 3,
+                "Burn": 15000,
+                "BurnTime": 3
+            },
+            {
+                "Price": 25000,
+                "Range": 30,
+                "Damage": 17000,
+                "Cooldown": 3,
+                "Burn": 17000,
+                "BurnTime": 3
+            },
+            {
+                "Price": 30000,
+                "Range": 32,
+                "Damage": 19000,
+                "Cooldown": 3,
+                "Burn": 19000,
+                "BurnTime": 3
+            }
+        ]
+    },
+    "Frontman": {
+        "Type": "Explosion Burn",
+        "Image": "rbxassetid://120088988016599",
+        "Rarity": "Nightmare",
         "PlacePrice": 17500,
         "Offset": -0.75,
         "Max": 3,
@@ -7801,6 +7936,59 @@
         ]
     },
     
+    "Toilet Freddy": {
+        "Type": "Booster + Slow",
+        "Image": "rbxassetid://135126714844795",
+        "Rarity": "Nightmare",
+        "PlacePrice": 3000,
+        "Offset": -2,
+        "Max": 2,
+        "Passive": {"Name": "Slow", "Description": "Slows all enemies in range by 60%"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 50,
+                "Damage": 0,
+                "Cooldown": 1.15,
+                "RangeBoost": 1.5,
+                "Slow": 0.4,
+                "SlowTime": 5
+            },
+            {
+                "Price": 4000,
+                "Range": 50,
+                "Damage": 0,
+                "Cooldown": 1.15,
+                "RangeBoost": 1.6,
+                "Slow": 0.4,
+                "SlowTime": 5
+            },
+            {
+                "Price": 5000,
+                "Range": 50,
+                "Damage": 0,
+                "Cooldown": 1.15,
+                "RangeBoost": 1.7,
+                "Slow": 0.4,
+                "SlowTime": 5
+            },
+            {
+                "Price": 6000,
+                "Range": 50,
+                "Damage": 0,
+                "Cooldown": 1.15,
+                "RangeBoost": 1.8,
+                "Slow": 0.4,
+                "SlowTime": 5
+            }
+        ]
+    },
+    
 
     "Number 1 Crate": {
         "Type": "AOE",
@@ -7846,6 +8034,46 @@
         "Type": "Pierce",
         "Image": "rbxassetid://101802698966800",
         "Rarity": "Nightmare",
+        "PlacePrice": 11000,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 7000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 14000,
+                "Range": 28,
+                "Damage": 8000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 16000,
+                "Range": 31,
+                "Damage": 9000,
+                "Cooldown": 1
+            },
+            {
+                "Price": 20000,
+                "Range": 35,
+                "Damage": 10000,
+                "Cooldown": 1
+            }
+
+        ]
+    },
+   "Guard": {
+        "Type": "Pierce",
+        "Image": "rbxassetid://91404072957750",
+        "Rarity": "Secret",
         "PlacePrice": 11000,
         "Offset": 0,
         "Max": 3,
@@ -15390,3 +15618,4 @@
         ]
     }
 }
+
