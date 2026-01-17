@@ -6182,6 +6182,113 @@
         ]
     },
 
+	 "FrontMan": {
+        "Type": "Splash Burn",
+        "Image": "rbxassetid://120088988016599",
+        "Rarity": "Secret",
+        "PlacePrice": 500,
+        "Offset": 1,
+        "Max": 3,
+        "Passive": {"Name": "Burn", "Description": "Burns enemies at 125% over 2 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+         "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 400,
+                "Cooldown": 1.5,
+                "Burn": 500,
+                "BurnTime": 2
+            },
+            {
+                "Price": 400,
+                "Range": 22,
+                "Damage": 500,
+                "Cooldown": 1.5,
+                "Burn": 625,
+                "BurnTime": 2
+            },
+            {
+                "Price": 500,
+                "Range": 24,
+                "Damage": 600,
+                "Cooldown": 1.5,
+                "Burn": 750,
+                "BurnTime": 2
+            },
+            {
+                "Price": 600,
+                "Range": 25,
+                "Damage": 800,
+                "Cooldown": 1.5,
+                "Burn": 1000,
+                "BurnTime": 2
+            }
+        ]
+    },
+"Gub Gub Bonnie": {
+        "Type": "AOE Burn + Stun",
+        "Image": "rbxassetid://117242748644728",
+        "Rarity": "Nightmare",
+        "PlacePrice": 51000,
+        "Offset": 0,
+        "Max": 1,
+        "Passive": {"Name": "Frightful Terror", "Description": "Burns enemies at 25% over 1 second and stuns enemies for 0.5 seconds"},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 30,
+                "Damage": 38000,
+                "Cooldown": 2.8,
+                "Slow": 0,
+                "SlowTime": 0.5,
+                "Burn": 9500,
+                "BurnTime": 1
+            },
+            {
+                "Price": 25000,
+                "Range": 32,
+                "Damage": 44000,
+                "Cooldown": 2.8,
+                "Slow": 0,
+                "SlowTime": 0.5,
+                "Burn": 11000,
+                "BurnTime": 1
+            },
+            {
+                "Price": 30000,
+                "Range": 35,
+                "Damage": 50000,
+                "Cooldown": 2.8,
+                "Slow": 0,
+                "SlowTime": 0.5,
+                "Burn": 12500,
+                "BurnTime": 1
+            },
+            {
+                "Price": 40000,
+                "Range": 38,
+                "Damage": 56000,
+                "Cooldown": 2.8,
+                "Slow": 0,
+                "SlowTime": 0.5,
+                "Burn": 14000,
+                "BurnTime": 1
+            }
+        ]
+    },
+
+
+
 
 
 "Dreadbear": {
@@ -6344,6 +6451,55 @@
             }
         ]
     },
+"Guard": {
+        "Type": "Continuous Burn",
+        "Image": "rbxassetid://91404072957750",
+        "Rarity": "Secret",
+        "PlacePrice": 17500,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 25,
+                "Damage": 140,
+                "Burn": 10,
+                "BurnTime": 2,
+                "Cooldown": 0.1
+                
+            },
+            {
+                "Price": 15000,
+                "Range": 28,
+                "Damage": 180,
+                "Burn": 10,
+                "BurnTime": 2,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 20000,
+                "Range": 32,
+                "Damage": 240,
+                "Burn": 10,
+                "BurnTime": 2,
+                "Cooldown": 0.1
+            },
+            {
+                "Price": 25000,
+                "Range": 35,
+                "Damage": 270,
+                "Burn": 10,
+                "BurnTime": 2,
+                "Cooldown": 0.1
+            }
+        ]
+    },
+
 
 
 
@@ -6514,10 +6670,114 @@
             }
         ]
     },
+  "Elite Minecraft Freddy": {
+        "Type": "Summon + Pierce",
+        "Image": "rbxassetid://80432610667808",
+        "Rarity": "Apex",
+        "PlacePrice": 20000,
+        "Offset": 0.5,
+        "Max": 4,
+        "Passive": {"Name": "Necromancer", "Description": "Summons spawn every 13 seconds and have health equal to 90 times this unit’s damage. Attacks apply 10% wither"},
+        "NoEnemyAttack": true,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
 
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 35,
+                "Damage": 3000,
+                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "WalkSpeed": 9,
+                "Health": 500,
+                "Cooldown": 2,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1
+            },
+            {
+                "Price": 30000,
+                "Range": 40,
+                "Damage": 3500,
+                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "WalkSpeed": 9,
+                "Health": 500,
+                "Cooldown": 1.66,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1
+            },
+            {
+                "Price": 40000,
+                "Range": 45,
+                "Damage": 4000,
+                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "WalkSpeed": 9,
+                "Health": 500,
+                "Cooldown": 1.33,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1
+            },
+            {
+                "Price": 50000,
+                "Range": 50,
+                "Damage": 4500,
+                "Unit": {"Necro Spawn": 1, "Necro Spawn 2": 0},
+                "WalkSpeed": 9,
+                "Health": 50000,
+                "Cooldown": 1.33,
+                "Wither": 1.10,
+                "ShinyWither": 1.10,
+                "WitherTime": 1
+            }
+        ]
+    },
 "Haunted Golden Freddy": {
         "Type": "Single",
         "Image": "rbxassetid://113183024632182",
+        "Rarity": "Mythic",
+        "PlacePrice": 4000,
+        "Offset": -2,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 15,
+                "Damage": 500,
+                "Cooldown": 1.5
+            },
+            {
+                "Price": 7000,
+                "Range": 18,
+                "Damage": 600,
+                "Cooldown": 1.25
+            },
+            {
+                "Price": 10000,
+                "Range": 20,
+                "Damage": 800,
+                "Cooldown": 1
+            },
+            {
+                "Price": 15000,
+                "Range": 20,
+                "Damage": 1000,
+                "Cooldown": 1
+            }
+        ]
+    },
+	"Strawberry Chica": {
+        "Type": "Single",
+        "Image": "rbxassetid://123650516402348",
         "Rarity": "Mythic",
         "PlacePrice": 4000,
         "Offset": -2,
@@ -7831,6 +8091,59 @@
             }
         ]
     },
+    "Banana Freddy": {
+        "Type": "AOE + Wither",
+        "Image": "rbxassetid://96907187074592",
+        "Rarity": "Nightmare",
+        "PlacePrice": 6000,
+        "Offset": 0,
+        "Max": 2,
+        "Passive": {"Name": "Scrapyard", "Description": "Enemies hit by this unit take +15% more damage."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 27,
+                "Damage": 5000,
+                "Cooldown": 2,
+                "Wither": 1.15,
+                "ShinyWither": 1.15,
+                "WitherTime": 1.5
+            },
+            {
+                "Price": 8000,
+                "Range": 30,
+                "Damage": 6800,
+                "Cooldown": 1.8,
+                "Wither": 1.15,
+                "ShinyWither": 1.15,
+                "WitherTime": 1.5
+            },
+            {
+                "Price": 10000,
+                "Range": 32,
+                "Damage": 7200,
+                "Cooldown": 1.6,
+                "Wither": 1.15,
+                "ShinyWither": 1.15,
+                "WitherTime": 1.5
+            },
+            {
+                "Price": 12000,
+                "Range": 35,
+                "Damage": 9000,
+                "Cooldown": 1.5,
+                "Wither": 1.15,
+                "ShinyWither": 1.15,
+                "WitherTime": 1.5
+            }
+        ]
+    },
+
 
 
     "Bucket Bob": {
@@ -15946,4 +16259,5 @@
         ]
     }
 }
+
 
