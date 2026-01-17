@@ -9143,6 +9143,45 @@
             }
         ]
     },
+	   "Goofy Big Head Spring Bonnie": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://114925090636226",
+        "Rarity": "Apex",
+        "PlacePrice": 600,
+        "Offset": 0,
+        "Max": 3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 17,
+                "Damage": 200,
+                "Cooldown": 1
+            },
+            {
+                "Price": 800,
+                "Range": 19,
+                "Damage": 300,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1000,
+                "Range": 20,
+                "Damage": 400,
+                "Cooldown": 1
+            },
+            {
+                "Price": 1200,
+                "Range": 22,
+                "Damage": 500,
+                "Cooldown": 1
+            }
+        ]
+    },
     "Dark Knight Puppet": {
         "Type": "AOE + Passive",
         "Image": "rbxassetid://86604943457071",
@@ -16259,5 +16298,6 @@
         ]
     }
 }
+
 
 
